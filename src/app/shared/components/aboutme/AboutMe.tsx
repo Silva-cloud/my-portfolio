@@ -16,7 +16,7 @@ export default function AboutMe() {
           About Me
         </h1>
         <p className="mb-5">
-          I'm a front-end developer with 2 years of experience working with
+          I&apos;m a front-end developer with 2 years of experience working with
           modern web technologies. I began with small student and personal
           projects, then joined a professional team where I worked with React
           and TypeScript on real-world applications.
@@ -29,10 +29,10 @@ export default function AboutMe() {
           it beyond an introductory level.
         </p>
         <p>
-          I'm comfortable working with libraries such as Material UI, Redux, and
-          TanStack Query. I'm currently studying for a Master's in Web
-          Technologies and continuously improving my front-end development
-          skills through practice and learning.
+          I&apos;m comfortable working with libraries such as Material UI,
+          Redux, and TanStack Query. I&apos;m currently studying for a
+          Master&apos;s in Web Technologies and continuously improving my
+          front-end development skills through practice and learning.
         </p>
       </div>
     </section>
