@@ -68,9 +68,9 @@ export default function SmallNav() {
           onClick={() => setShowSideNav(false)}
           target="_blank"
           className={navLinksStyle}
-          href="https://drive.google.com/file/d/1lsQAqjSET3J0bnvlH24wWcpMzwncQ1JP/view?usp=sharing"
+          href="https://drive.google.com/file/d/1KZkux5BVo5JjuEKw4_0zEbQASEKtApRL/view"
         >
-          Resume
+          CV
         </Link>
       </div>
     </div>
