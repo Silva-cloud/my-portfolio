@@ -1,5 +1,39 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: rgb(116, 119, 255);
+  --color-primary-bg: #0f172a;
+  --color-secondary-row: #1e293b;
+  --font-system: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --font-secondary: Pacifico, cursive;
+  --section: flex py-32 items-center justify-between;
+}
+
+@layer components {
+  .section {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: calc(var(--spacing) * 24);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f172a;
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+/* @import "tailwindcss";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,7 +48,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0f172a;
     --foreground: #ededed;
   }
 }
@@ -23,4 +57,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
