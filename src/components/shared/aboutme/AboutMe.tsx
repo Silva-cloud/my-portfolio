@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AboutImage from "@/app/assets/images/about-img.png";
+import AboutImage from "@/assets/images/about-img.png";
 
 export default function AboutMe() {
   return (

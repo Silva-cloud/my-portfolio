@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "@/app/assets/images/hero-img.png";
+import HeroImage from "@/assets/images/hero-img.png";
 import Link from "next/link";
 
 export default function Hero() {

@@ -1,10 +1,10 @@
 import Card from "../card/Card";
-import BankApp from "@/app/assets/images/projects/bankApp.png";
-import RecruitmentApp from "@/app/assets/images/projects/recruitmentApp.png";
-import TourApp from "@/app/assets/images/projects/tourApp.png";
-import RoboApp from "@/app/assets/images/projects/robots.png";
-import FaceRecogintion from "@/app/assets/images/projects/facerecognitionbrain.png";
-import LandingPageStartUp from "@/app/assets/images/projects/StartUpLandingPage.png";
+import BankApp from "@/assets/images/projects/bankApp.png";
+import RecruitmentApp from "@/assets/images/projects/recruitmentApp.png";
+import TourApp from "@/assets/images/projects/tourApp.png";
+import RoboApp from "@/assets/images/projects/robots.png";
+import FaceRecogintion from "@/assets/images/projects/facerecognitionbrain.png";
+import LandingPageStartUp from "@/assets/images/projects/StartUpLandingPage.png";
 
 const projects = [
   {
