@@ -4,5 +4,11 @@
   "languages": {
     "en": "English",
     "ar": "Arabic"
+  },
+  "nav": {
+    "about": "about",
+    "contact": "contact",
+    "cv": "CV",
+    "projects": "Projects"
   }
 }
