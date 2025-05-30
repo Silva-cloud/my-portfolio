@@ -18,11 +18,13 @@
   --color-secondary-row: lightGray;
 }
 
-@custom-variant theme-white {
-  :where([data-theme="white"] *) {
+/* @custom-variant theme-light {
+  &:where([data-theme="light"] *) {
     @slot;
   }
-}
+} */
+
+@custom-variant theme-light (&:where([data-theme="light"] *));
 
 @layer components {
   .section {
