@@ -10,5 +10,10 @@
     "contact": "contact",
     "cv": "CV",
     "projects": "Projects"
+  },
+  "theme": {
+    "light": "light",
+    "dark": "Dark",
+    "automatic": "Automatic"
   }
 }

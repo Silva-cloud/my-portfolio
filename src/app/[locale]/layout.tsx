@@ -6,6 +6,7 @@ import { routing } from "@/lib/i18n/routing";
 import { hasLocale, Locale, NextIntlClientProvider } from "next-intl";
 import Footer from "@/components/shared/footer/Footer";
 import { setRequestLocale } from "next-intl/server";
+import antiFlickerScript from "@/lib/theme/antiFlickerScript";
 
 export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -30,7 +31,16 @@ export default async function RootLayout({
 
   setRequestLocale(locale);
   return (
-    <html dir={locale === "ar" ? "rtl" : "ltr"} lang={locale}>
+    <html
+      suppressHydrationWarning
+      dir={locale === "ar" ? "rtl" : "ltr"}
+      lang={locale}
+    >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{ __html: antiFlickerScript }}
+        ></script>
+      </head>
       <body className={` font-system  antialiased  `}>
         <NextIntlClientProvider>
           <Header />

@@ -1,5 +1,6 @@
 import LanguageSwitcher from "@/components/ui/languageSwitcher/LangSwitcher";
 import SmallNav from "@/components/ui/smallNav/SmallNav";
+import ThemeSwitcher from "@/components/ui/ThemeSwitcher/ThemeSwitcher";
 import NavigationLinks from "@/lib/constants/navigation";
 import { Link } from "@/lib/i18n/navigation";
 import { useTranslations } from "next-intl";
@@ -16,7 +17,7 @@ export default function Header() {
       >
         {t("myName")}
       </Link>
-
+      <ThemeSwitcher />
       <LanguageSwitcher />
       <SmallNav />
       <nav className="gap-6  items-center hidden sm:flex">

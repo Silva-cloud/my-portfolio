@@ -2,12 +2,26 @@
 
 @theme {
   --color-primary: rgb(116, 119, 255);
+  --color-font-primary: white;
   --color-primary-bg: #0f172a;
   --color-secondary-row: #1e293b;
   --font-system: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --font-secondary: Pacifico, cursive;
   --section: flex py-32 items-center justify-between;
+}
+
+[data-theme="light"] {
+  --color-primary: rgb(182, 182, 211);
+  --color-font-primary: #222;
+  --color-primary-bg: white;
+  --color-secondary-row: lightGray;
+}
+
+@custom-variant theme-white {
+  :where([data-theme="white"] *) {
+    @slot;
+  }
 }
 
 @layer components {
@@ -25,8 +39,8 @@ html {
 }
 
 body {
-  background-color: #0f172a;
-  color: white;
+  background-color: var(--color-primary-bg);
+  color: var(--color-font-primary);
   font-size: 1.125rem;
   line-height: 1.75rem;
   margin: 0;
