@@ -11,11 +11,19 @@
   --section: flex py-32 items-center justify-between;
 }
 
-[data-theme="light"] {
-  --color-primary: rgb(182, 182, 211);
-  --color-font-primary: #222;
+[data-theme="minimal light"] {
+  --color-primary: #3f3d56;
+  --color-font-primary: #0f172a;
   --color-primary-bg: white;
-  --color-secondary-row: lightGray;
+  --color-secondary-row: #e6e6e7;
+}
+
+[data-theme="aqua breeze"] {
+  --color-primary: #617fff;
+  /* --color-primary: hsl(259, 100%, 59%); */
+  --color-font-primary: #0f172a;
+  --color-primary-bg: #e0e6ff;
+  --color-secondary-row: #94a8ff;
 }
 
 /* @custom-variant theme-light {
@@ -24,7 +32,8 @@
   }
 } */
 
-@custom-variant theme-light (&:where([data-theme="light"] *));
+@custom-variant theme-aqua-breeze (&:where([data-theme="aqua breeze"] *));
+@custom-variant theme-minimal-light (&:where([data-theme="minimal light"] *));
 
 @layer components {
   .section {

@@ -12,8 +12,9 @@
     "cv": "السيرة الذاتية"
   },
   "theme": {
+    "aqua breeze": "نسيم أكوا",
+    "dark": "داكن",
     "automatic": "تلقائي",
-    "dark": "مظلم",
-    "light": "مضيء"
+    "minimal light": "إضاءة بسيطة"
   }
 }

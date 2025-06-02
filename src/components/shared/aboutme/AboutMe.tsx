@@ -12,7 +12,7 @@ export default function AboutMe() {
         />
       </div>
       <div className="order-1 md:order-2 md:basis-1/2 ">
-        <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+        <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-primary pb-2">
           About Me
         </h1>
         <p className="mb-5">

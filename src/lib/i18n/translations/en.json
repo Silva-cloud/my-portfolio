@@ -12,8 +12,9 @@
     "projects": "Projects"
   },
   "theme": {
-    "light": "light",
+    "aqua breeze": "Aqua breeze",
     "dark": "Dark",
-    "automatic": "Automatic"
+    "automatic": "Automatic",
+    "minimal light": "Minimal light"
   }
 }

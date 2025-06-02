@@ -24,7 +24,9 @@ export default function Header() {
         {NavigationLinks.map(({ href, target, label }) => (
           <Link
             key={label}
-            className={"text-lg hover:text-primary theme-light:bg-amber-800"}
+            className={
+              "text-lg hover:text-primary theme-minimal-light:opacity-55 theme-minimal-light:hover:opacity-100"
+            }
             href={href}
             target={target}
           >

@@ -35,7 +35,7 @@ export default function ThemeSwitcher() {
           const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
             .matches
             ? "dark"
-            : "light";
+            : "aqua breeze";
           newTheme = systemTheme;
         }
         document.documentElement.setAttribute("data-theme", newTheme);

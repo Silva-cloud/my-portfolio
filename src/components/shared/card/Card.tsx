@@ -22,14 +22,14 @@ export default function Card({
           <Link
             target="_blank"
             href={previewUrl}
-            className="flex item-center justify-center px-5 py-2 bg-blue-500 hover:bg-blue-600 me-5 font-bold"
+            className="flex theme-minimal-light:text-white theme-aqua-breeze:text-white  item-center justify-center px-5 py-2 bg-blue-500 hover:bg-blue-600 me-5 font-bold"
           >
             Live
           </Link>
           <Link
             target="_blank"
             href={codeUrl}
-            className="flex item-center justify-center px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
+            className="flex theme-minimal-light:text-white  theme-aqua-breeze:text-white  item-center justify-center px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
           >
             Code
           </Link>

@@ -3,7 +3,7 @@ export default function Footer() {
     <footer id="contact">
       <section className="py-24 bg-secondary-row px-6 flex flex-col items-center">
         <div>
-          <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] border-indigo-600 pb-2">
+          <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] border-primary pb-2">
             Contact Me
           </h1>
           <p className="py-2">
@@ -14,7 +14,7 @@ export default function Footer() {
           </p>
         </div>
       </section>
-      <div className="py-4 text-center  text-white ">
+      <div className="py-4 text-center  text-font-primary ">
         © 2025 codez all right reserved
       </div>
     </footer>

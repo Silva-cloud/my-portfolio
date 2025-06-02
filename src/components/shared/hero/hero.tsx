@@ -20,14 +20,18 @@ export default function Hero() {
         <div className="flex justify-center md:justify-start">
           <Link
             href={"/#projects"}
-            className="flex item-center justify-center bg-primary  p mt-10 max-w-fit px-6 py-3  border-2 border-transparent hover:bg-transparent hover:border-primary"
+            className="flex item-center justify-center bg-primary theme-aqua-breeze:text-white theme-minimal-light:text-white theme-aqua-breeze:hover:text-font-primary theme-minimal-light:hover:text-font-primary  p mt-10 max-w-fit px-6 py-3  border-2 border-transparent hover:bg-transparent hover:border-primary"
           >
             See Projects
           </Link>
         </div>
       </div>
       <div className="basis-full md:basis-1/2 mt-10 md:mt-0 flex justify-center md:justify-end ">
-        <Image alt="hero-img " src={HeroImage} />
+        <Image
+          className="theme-aqua-breeze:bg-[#b1b5c7] theme-aqua-breeze:p-11"
+          alt="hero-img "
+          src={HeroImage}
+        />
       </div>
     </section>
   );

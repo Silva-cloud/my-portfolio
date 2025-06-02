@@ -1,2 +1,2 @@
-const themes = ["light", "dark", "automatic"] as const;
+const themes = ["aqua breeze", "dark", "minimal light", "automatic"] as const;
 export default themes;
