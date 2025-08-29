@@ -4,7 +4,7 @@ import SmallNav from "../smallNav/SmallNav";
 export default function Header() {
   const navLinksStyle = "text-lg hover:text-primary";
   return (
-    <header className="flex justify-between z-10 bg-primary-bg items-center fixed w-full px-6   py-2 ">
+    <header className="flex justify-between z-10 bg-primary-bg items-center sticky top-0 w-full px-6   py-2 ">
       <Link
         className="bg-[--background]   text-primary text-2xl font-bold"
         href={"/"}

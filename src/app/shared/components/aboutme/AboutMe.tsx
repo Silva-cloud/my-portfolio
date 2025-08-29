@@ -4,14 +4,14 @@ import AboutImage from "@/app/assets/images/about-img.png";
 export default function AboutMe() {
   return (
     <section id="about" className="section bg-secondary-row px-6">
-      <div className="mt-16 md:mt-0 order-2 md:order-1 basis-full md:basis-1/2  flex justify-center md:justify-start ">
+      <div className="mt-16 md:mt-0  basis-full md:basis-1/2  flex justify-center md:justify-start ">
         <Image
           alt="about-me-image"
           className="max-w-full md:max-w-9/12 "
           src={AboutImage}
         />
       </div>
-      <div className="order-1 md:order-2 md:basis-1/2 ">
+      <div className=" md:basis-1/2 ">
         <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
           About Me
         </h1>

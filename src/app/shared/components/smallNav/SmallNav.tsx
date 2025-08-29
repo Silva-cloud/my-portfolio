@@ -8,6 +8,7 @@ export default function SmallNav() {
   return (
     <div className="sm:hidden">
       <button
+        className="cursor-pointer"
         onClick={() => {
           setShowSideNav((prev) => !prev);
         }}
