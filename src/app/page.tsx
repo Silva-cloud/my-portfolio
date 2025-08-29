@@ -10,7 +10,7 @@ export default function Home() {
       <AboutMe />
       <Projects />
       <Footer />
-      <div className="py-4 text-center  text-white ">
+      <div className="py-4 px-6  text-white ">
         © 2025 codez all right reserved
       </div>
     </div>
