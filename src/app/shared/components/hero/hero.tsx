@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="section px-6">
-      <div className=" md:basis-1/2 ">
+      <div className=" md:basis-1/2 order-2 md:order-1">
         <p className="text-4xl lg:text-6xl font-secondary">
           Hi, I am <span className="text-primary">Z</span>oAlfakar
         </p>
@@ -26,7 +26,7 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className="basis-full md:basis-1/2 mt-10 md:mt-0 flex justify-center md:justify-end ">
+      <div className="basis-full order-1 md:order-2 md:basis-1/2 mb-10 md:mt-0 flex justify-center md:justify-end ">
         <Image alt="hero-img " src={HeroImage} />
       </div>
     </section>
