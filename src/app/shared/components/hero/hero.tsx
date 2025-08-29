@@ -26,8 +26,12 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className="basis-full order-1 md:order-2 md:basis-1/2 mb-10 md:mt-0 flex justify-center md:justify-end ">
-        <Image alt="hero-img " src={HeroImage} />
+      <div className="basis-full md:basis-1/2 order-1 md:order-2  mb-10 md:mt-0 flex justify-center md:justify-end ">
+        <Image
+          className="max-w-full md:max-w-9/12 "
+          alt="hero-img "
+          src={HeroImage}
+        />
       </div>
     </section>
   );
